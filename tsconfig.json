@@ -6,7 +6,7 @@
     /* Base Options */
     "esModuleInterop": true,
     "skipLibCheck": true,
-    "target": "ESNext",
+    "target": "ES2022",
     "allowJs": true,
     "resolveJsonModule": true,
     "moduleDetection": "force",
@@ -27,7 +27,7 @@
     "strictNullChecks": true,
 
     /* Libs */
-    "lib": ["ESNext"],
+    "lib": ["ES2022"],
     "types": ["node", "./json/index.d.ts"],
 
     "outDir": "./dist"
