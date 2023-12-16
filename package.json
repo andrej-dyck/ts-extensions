@@ -1,0 +1,33 @@
+{
+  "name": "typescript-extensions",
+  "version": "rc-1.0.0",
+  "description": "",
+  "author": "Andrej Dyck",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "main": "index.ts",
+  "sideEffects": false,
+  "scripts": {
+    "typecheck": "tsc --noEmit -p tsconfig.json --composite false",
+    "lint": "eslint . --ext .ts,.tsx --ignore-path .gitignore --max-warnings 0",
+    "test": "vitest run",
+    "test:watch": "vitest watch",
+    "check": "pnpm run typecheck && pnpm run lint && pnpm run test"
+  },
+  "packageManager": "pnpm@8.12.0",
+  "engine-strict": true,
+  "engines": {
+    "npm": "please-use-pnpm",
+    "yarn": "please-use-pnpm",
+    "pnpm": ">=8.12.0"
+  },
+  "devDependencies": {
+    "@types/node": "20.10.4",
+    "@typescript-eslint/eslint-plugin": "6.14.0",
+    "@typescript-eslint/parser": "6.14.0",
+    "eslint": "8.56.0",
+    "typescript": "5.3.3",
+    "vitest": "1.0.4"
+  }
+}
