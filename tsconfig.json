@@ -28,7 +28,7 @@
 
     /* Libs */
     "lib": ["ESNext"],
-    "types": ["node"],
+    "types": ["node", "./json/index.d.ts"],
 
     "outDir": "./dist"
   },
