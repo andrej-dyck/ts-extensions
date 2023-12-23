@@ -1,3 +1,4 @@
+export * from './events/index.js'
 export * from './json/index.js'
 export * from './lazy/index.js'
 export * from './locale/index.js'
