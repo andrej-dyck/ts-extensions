@@ -1,17 +1,20 @@
 {
   "compilerOptions": {
-    "moduleResolution": "NodeNext",
     "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "target": "ES2022",
+    "outDir": "./dist",
 
     /* Base Options */
-    "esModuleInterop": true,
-    "skipLibCheck": true,
-    "target": "ES2022",
+    "allowImportingTsExtensions": true,
     "allowJs": true,
-    "resolveJsonModule": true,
-    "moduleDetection": "force",
+    "composite": true,
+    "esModuleInterop": true,
+    "incremental": true,
     "isolatedModules": true,
-    "noEmit": true,
+    "moduleDetection": "force",
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
 
     /* Strictness */
     "strict": true,
@@ -27,11 +30,10 @@
     "strictNullChecks": true,
 
     /* Libs */
-    "lib": ["ES2022"],
+    "lib": ["ES2023"],
     "types": ["node", "./json/index.d.ts"],
-
-    "outDir": "./dist"
   },
+  "include": ["./**/*.ts", "./*.d.ts"],
   "exclude": [
     "node_modules"
   ]
