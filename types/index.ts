@@ -1,1 +1,1 @@
-export * from './DeepPartial.js'
+export * from './DeepPartial.ts'

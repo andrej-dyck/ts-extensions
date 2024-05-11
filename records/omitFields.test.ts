@@ -1,5 +1,5 @@
 import { expect, test } from 'vitest'
-import { omitFields } from './omitFields.js'
+import { omitFields } from './omitFields.ts'
 
 test('omitFields omits a field from an object', () => {
   expect(omitFields({ a: 1, b: 2, c: 3 }, 'b')).toMatchObject({ a: 1, c: 3 })

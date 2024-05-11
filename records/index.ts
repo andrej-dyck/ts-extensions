@@ -1,3 +1,3 @@
-export * from './hasField.js'
-export * from './pickFields.js'
-export * from './omitFields.js'
+export * from './hasField.ts'
+export * from './pickFields.ts'
+export * from './omitFields.ts'

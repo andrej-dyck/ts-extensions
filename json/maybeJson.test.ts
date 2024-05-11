@@ -1,5 +1,5 @@
 import { expect, test } from 'vitest'
-import { maybeJson } from './index.js'
+import { maybeJson } from './index.ts'
 import { z } from 'zod'
 
 test.each([

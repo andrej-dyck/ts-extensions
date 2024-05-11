@@ -1,5 +1,5 @@
 import { expect, test } from 'vitest'
-import { pickFields } from './pickFields.js'
+import { pickFields } from './pickFields.ts'
 
 test('pickFields picks a field from an object', () => {
   expect(pickFields({ a: 1, b: 2, c: 3 }, 'b')).toMatchObject({ b: 2 })

@@ -1,5 +1,5 @@
 import { expect, test } from 'vitest'
-import { generateSequence } from './index.js'
+import { generateSequence } from './index.ts'
 
 test('generateSequence has only seed when next is null', () => {
   expect([...generateSequence(1, () => null)]).toEqual([1])

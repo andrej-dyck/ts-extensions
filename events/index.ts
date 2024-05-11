@@ -1,1 +1,1 @@
-export * from './TypedEvents.js'
+export * from './TypedEvents.ts'

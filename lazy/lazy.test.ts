@@ -1,5 +1,5 @@
 import { expect, test } from 'vitest'
-import { lazy } from './index.js'
+import { lazy } from './index.ts'
 
 test('lazy remembers the value of its function', () => {
   const lazyValue = lazy(() => 1)

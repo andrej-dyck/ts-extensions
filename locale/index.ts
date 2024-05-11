@@ -1,1 +1,1 @@
-export * from './localeNumber.js'
+export * from './localeNumber.ts'

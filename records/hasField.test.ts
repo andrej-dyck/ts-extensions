@@ -1,5 +1,5 @@
 import { expect, test } from 'vitest'
-import { hasField } from './hasField.js'
+import { hasField } from './hasField.ts'
 
 test('hasField infers that a field exists on an unknown object', () => {
   const obj: unknown = { id: 1 }

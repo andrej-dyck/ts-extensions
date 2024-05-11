@@ -1,1 +1,1 @@
-export * from './generateSequence.js'
+export * from './generateSequence.ts'

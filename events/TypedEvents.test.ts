@@ -1,5 +1,5 @@
 import { describe, expect, test } from 'vitest'
-import { typedEvents } from './TypedEvents.js'
+import { typedEvents } from './TypedEvents.ts'
 
 describe('TypedEvents', () => {
 

@@ -1,5 +1,5 @@
 import { describe, expect, test } from 'vitest'
-import { memoize } from './index.js'
+import { memoize } from './index.ts'
 
 describe('memoize', () => {
 

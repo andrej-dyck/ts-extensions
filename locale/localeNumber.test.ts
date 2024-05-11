@@ -1,5 +1,5 @@
 import { describe, expect, it, test } from 'vitest'
-import { localeNumber, Locale } from './localeNumber.js'
+import { localeNumber, Locale } from './localeNumber.ts'
 
 describe('localeNumber', () => {
 
