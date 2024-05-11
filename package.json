@@ -15,7 +15,6 @@
     "test:watch": "vitest watch",
     "check": "pnpm run typecheck && pnpm run lint && pnpm run test"
   },
-  "packageManager": "pnpm@9.1.0",
   "engine-strict": true,
   "engines": {
     "npm": "please-use-pnpm",
@@ -23,6 +22,7 @@
     "pnpm": ">=9.1.0"
   },
   "devDependencies": {
+    "@type-challenges/utils": "0.1.1",
     "@types/node": "20.12.11",
     "eslint": "9.2.0",
     "typescript": "5.4.5",

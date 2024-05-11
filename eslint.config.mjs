@@ -43,6 +43,7 @@ export default tseslint.config(
 
       /* typescript */
       '@typescript-eslint/consistent-type-definitions': 'off',
+      '@typescript-eslint/no-unused-vars': 'off',
       '@typescript-eslint/no-confusing-void-expression': ['error', { ignoreArrowShorthand: true }],
       '@typescript-eslint/prefer-readonly': ['warn'],
       '@typescript-eslint/space-before-blocks': ['error'],
