@@ -34,7 +34,4 @@
     "types": ["node", "./json/index.d.ts"],
   },
   "include": ["./**/*.ts", "./*.d.ts"],
-  "exclude": [
-    "node_modules"
-  ]
 }

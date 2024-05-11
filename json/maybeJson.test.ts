@@ -47,7 +47,7 @@ test('maybeJson is undefined if the parse function fails to parse the unknown', 
 
 test('maybeJson can assume that unknown is of type T without a parse function (not recommended)', () => {
   const parsedObject = maybeJson<{ letters: string[] }>(
-    '{ "number": 1.07, "letters": ["a", "b", "c"] }',
+    '{ "number": 1.07, "letters": ["a", "b", "c"] }'
   )
   expect(parsedObject?.letters).toEqual(['a', 'b', 'c'])
 })
