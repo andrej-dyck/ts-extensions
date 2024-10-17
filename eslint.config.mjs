@@ -32,6 +32,7 @@ export default tseslint.config(
         'exports': 'only-multiline',
         'functions': 'never',
       }],
+      'space-before-blocks': ['warn'],
       'space-unary-ops': ['warn'],
       'consistent-return': ['warn'],
       'eol-last': ['warn'],
@@ -43,16 +44,11 @@ export default tseslint.config(
 
       /* typescript */
       '@typescript-eslint/consistent-type-definitions': 'off',
-      '@typescript-eslint/no-unused-vars': 'off',
+      '@typescript-eslint/consistent-type-assertions': 'off',
       '@typescript-eslint/no-confusing-void-expression': ['error', { ignoreArrowShorthand: true }],
+      '@typescript-eslint/no-unused-vars': 'off', // enforced by tsconfig
       '@typescript-eslint/prefer-readonly': ['warn'],
-      '@typescript-eslint/space-before-blocks': ['error'],
       '@typescript-eslint/switch-exhaustiveness-check': ['warn'],
-      '@typescript-eslint/type-annotation-spacing': ['error', {
-        before: false,
-        after: true,
-        overrides: { arrow: { before: true, after: true } },
-      }],
     },
   },
   {
