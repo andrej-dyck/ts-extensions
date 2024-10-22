@@ -1,4 +1,5 @@
 export * from './arrays/index.ts'
+export * from './debug/logObject.ts'
 export * from './events/index.ts'
 export * from './json/index.ts'
 export * from './lazy/index.ts'
